@@ -1,0 +1,34 @@
+.shop_banner{
+    background: green;
+}
+.shop_banner img{
+    width: 100%;
+}
+.banner_blow_cnt{
+    max-width: 628px;
+}
+.banner_blow_cnt{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.features_div{
+    padding-bottom: 78px;
+}
+.features_div ul{
+    display: flex;
+    list-style: none;
+    max-width: 886.06px;
+    margin: 0 auto;
+    padding-left: 0;
+    justify-content: space-between;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feature p{
+    max-width: 79px;
+    margin: 0;
+}
