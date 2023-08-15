@@ -1,3 +1,6 @@
+p{
+    margin-bottom: 0;
+}
 .shop_banner{
     background: green;
 }
@@ -32,14 +35,16 @@
     max-width: 79px;
     margin: 0;
 }
-.search_select_div{
-    display: flex;
+.main_div{
     max-width: 1328px;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 50px 38px;
     border-radius: 30px;
     background: linear-gradient(to right, #FEF3E8, #BFEBF4 );
+}
+.search_select_div{
+    display: flex;
+    justify-content: space-between;
 }
 .city_select_div{
     background: #FFFFFF url('images/city_drop_down.svg') no-repeat center right;
@@ -65,4 +70,56 @@
     background: #FFFFFF url('/images/search_icon.svg') no-repeat center left;
     background-position-x: 34px;
     border: 1px solid #BECACB;
+}
+.explore_txt{
+    text-align: center;
+    padding: 55px 0 37px 0;
+}
+.options_main_div{
+    padding-bottom: 47px;
+}
+.optn_inner_div{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.optn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    max-width: 205px;
+    min-width: 205px;
+    border-radius: 12px;
+    padding: 12px 42px 12px 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.optn:hover{
+    box-shadow: 5px 7px black;
+    background: #F8E128;
+    transition: 0.5s ease;
+}
+.optn:hover .img_bc_span{
+    background: white;
+    transition: 0.5s ease;
+}
+.optactive{
+    box-shadow: 5px 7px black;
+    background: #F8E128;
+    border: 1px solid #26ACE2;
+}
+.optactive .img_bc_span{
+    background-color: #FFFFFF;
+}
+.img_bc_span{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EDF7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
 }
